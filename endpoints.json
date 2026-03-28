@@ -1,0 +1,20 @@
+[
+  {
+    "name": "GitHub Zen API",
+    "url": "https://api.github.com/zen",
+    "expected_status": 200,
+    "timeout_ms": 2000
+  },
+  {
+    "name": "JSONPlaceholder API",
+    "url": "https://jsonplaceholder.typicode.com/todos/1",
+    "expected_status": 200,
+    "timeout_ms": 1500
+  },
+  {
+    "name": "A deliberately failing endpoint",
+    "url": "https://httpstat.us/404",
+    "expected_status": 200,
+    "timeout_ms": 1000
+  }
+]
